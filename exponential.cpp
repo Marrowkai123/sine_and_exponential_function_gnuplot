@@ -35,7 +35,7 @@ int main() {
   // Open a text file for output
   std::ofstream outfile("output.txt");
   if (!outfile.is_open()) {
-    std::cerr << "Error opening file: output.txt" << std::endl;
+    std::cerr << "Error opening file: exponential_data.txt" << std::endl;
     return 1;
   }
 
